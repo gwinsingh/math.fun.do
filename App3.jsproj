@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+      <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+      <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+      <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>db196aa1-b51a-4524-bed2-15228a2c540b</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0'">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>$(VersionNumberMajor).$(VersionNumberMinor)</MinimumVisualStudioVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>App3_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\default.css" />
+    <Content Include="css\page0.css" />
+    <Content Include="css\parallax.css" />
+    <Content Include="css\portfolio-item.css" />
+    <Content Include="css\style.css" />
+    <Content Include="default.html" />
+    <Content Include="html\audio\right.mp3" />
+    <Content Include="html\audio\wrong.mp3" />
+    <Content Include="html\fifth.html" />
+    <Content Include="html\fourth.html" />
+    <Content Include="html\greaterlesser.html" />
+    <Content Include="html\icons\add.png" />
+    <Content Include="html\icons\danda.png" />
+    <Content Include="html\icons\greater.png" />
+    <Content Include="html\icons\hdanda.png" />
+    <Content Include="html\icons\less.png" />
+    <Content Include="html\icons\slant.png" />
+    <Content Include="html\icons\Stick.png" />
+    <Content Include="html\icons\subtract.png" />
+    <Content Include="html\images2\0_1.png" />
+    <Content Include="html\images2\0_2.png" />
+    <Content Include="html\images2\1_1.png" />
+    <Content Include="html\images2\1_2.png" />
+    <Content Include="html\images2\2_1.png" />
+    <Content Include="html\images2\2_2.png" />
+    <Content Include="html\images2\3_1.png" />
+    <Content Include="html\images2\3_2.png" />
+    <Content Include="html\images2\4_1.png" />
+    <Content Include="html\images2\4_2.png" />
+    <Content Include="html\images2\4_3.png" />
+    <Content Include="html\images2\5_1.png" />
+    <Content Include="html\images2\5_2.png" />
+    <Content Include="html\images2\6_1.png" />
+    <Content Include="html\images2\6_2.png" />
+    <Content Include="html\images2\7_1.png" />
+    <Content Include="html\images2\7_2.png" />
+    <Content Include="html\images2\8_1.png" />
+    <Content Include="html\images2\8_2.png" />
+    <Content Include="html\images2\9_1.png" />
+    <Content Include="html\images2\9_2.png" />
+    <Content Include="html\images3\0.png" />
+    <Content Include="html\images3\1.png" />
+    <Content Include="html\images3\2.png" />
+    <Content Include="html\images3\3.png" />
+    <Content Include="html\images3\4.png" />
+    <Content Include="html\images3\5.png" />
+    <Content Include="html\images3\6.png" />
+    <Content Include="html\images3\7.png" />
+    <Content Include="html\images3\8.png" />
+    <Content Include="html\images3\9.png" />
+    <Content Include="html\images\about.png" />
+    <Content Include="html\images\addscreen.png" />
+    <Content Include="html\images\footer-logo.png" />
+    <Content Include="html\images\fotterback.png" />
+    <Content Include="html\images\logo.png" />
+    <Content Include="html\images\mathfundo.png" />
+    <Content Include="html\images\parlex.png" />
+    <Content Include="html\images\portfolio\1.jpg" />
+    <Content Include="html\images\portfolio\2.jpg" />
+    <Content Include="html\images\portfolio\3.jpg" />
+    <Content Include="html\images\portfolio\4.jpg" />
+    <Content Include="html\images\portfolio\5.jpg" />
+    <Content Include="html\images\portfolio\6.jpg" />
+    <Content Include="html\images\portfolio\7.jpg" />
+    <Content Include="html\images\portfolio\8.jpg" />
+    <Content Include="html\images\portfolio\9.jpg" />
+    <Content Include="html\images\portfolio\exit.png" />
+    <Content Include="html\images\portfolio\quizlogo.png" />
+    <Content Include="html\images\quiz.png" />
+    <Content Include="html\images\right.gif" />
+    <Content Include="html\images\right.png" />
+    <Content Include="html\images\team.png" />
+    <Content Include="html\images\who-we-are.png" />
+    <Content Include="html\images\wrong.gif" />
+    <Content Include="html\images\wrong.png" />
+    <Content Include="html\jquery.min.js" />
+    <Content Include="html\learncounting.html" />
+    <Content Include="html\page1.html" />
+    <Content Include="html\page2.html" />
+    <Content Include="html\page2\animation.css" />
+    <Content Include="html\page2\animation.js" />
+    <Content Include="html\page2\carousels.js" />
+    <Content Include="html\page2\classie.js" />
+    <Content Include="html\page2\jquery-1.10.2.min.js" />
+    <Content Include="html\page2\jquery.js" />
+    <Content Include="html\page2\modernizr.js" />
+    <Content Include="html\page2\normal.css" />
+    <Content Include="html\page2\normal.js" />
+    <Content Include="html\page2\portfolio-effects.js" />
+    <Content Include="html\page2\slider-modernizr.js" />
+    <Content Include="html\page2\style.css" />
+    <Content Include="html\page2\toucheffects.js" />
+    <Content Include="html\page3.html" />
+    <Content Include="html\addpractice.html" />
+    <Content Include="html\practice.html" />
+    <Content Include="html\quiz1.html" />
+    <Content Include="html\quiz2.html" />
+    <Content Include="html\quiz3.html" />
+    <Content Include="html\quiz4.html" />
+    <Content Include="html\script.js" />
+    <Content Include="html\script3.js" />
+    <Content Include="html\script4.js" />
+    <Content Include="html\script5.js" />
+    <Content Include="html\second.html" />
+    <Content Include="html\sixth.html" />
+    <Content Include="html\style.css" />
+    <Content Include="html\style3.css" />
+    <Content Include="html\style5.css" />
+    <Content Include="html\styles4.css" />
+    <Content Include="html\subtract1.html" />
+    <Content Include="html\subtract2.html" />
+    <Content Include="html\subtract3.html" />
+    <Content Include="html\subtract\script1.js" />
+    <Content Include="html\subtract\script2.js" />
+    <Content Include="html\subtract\script3.js" />
+    <Content Include="html\subtract\style1.css" />
+    <Content Include="html\subtract\style2.css" />
+    <Content Include="html\subtract\style3.css" />
+    <Content Include="html\third.html" />
+    <Content Include="images\addscreen.png" />
+    <Content Include="images\back.gif" />
+    <Content Include="images\quizscreen.png" />
+    <Content Include="images\LockScreenLogo.scale-200.png" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo1.png" />
+    <Content Include="images\screen.png" />
+    <Content Include="images\splash.png" />
+    <Content Include="images\SplashScreen.scale-200.png" />
+    <Content Include="images\Square150x150Logo.scale-200.png" />
+    <Content Include="images\Square44x44Logo.scale-200.png" />
+    <Content Include="images\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="images\StoreLogo.png" />
+    <Content Include="images\subscreen.jpg" />
+    <Content Include="images\tarunb.jpg" />
+    <Content Include="images\Wide310x150Logo.scale-200.png" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\default.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jtag.js" />
+    <Content Include="js\parallax.js" />
+    <Content Include="js\parallax_main.js" />
+    <Content Include="page0.html" />
+    <Content Include="WinJS\css\ui-dark.css" />
+    <Content Include="WinJS\css\ui-light.css" />
+    <Content Include="WinJS\fonts\Symbols.ttf" />
+    <Content Include="WinJS\js\en-US\ui.strings.js" />
+    <Content Include="WinJS\js\base.js" />
+    <Content Include="WinJS\js\ui.js" />
+    <None Include="App3_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="html\page1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>
