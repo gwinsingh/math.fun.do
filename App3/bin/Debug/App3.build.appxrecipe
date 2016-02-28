@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HP-TARUN</Machine>
+    <WindowsUser>Tarun Kumar</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>db196aa1-b51a-4524-bed2-15228a2c540b</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\css\bootstrap.css">
+      <PackagePath>css\bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\css\bootstrap.min.css">
+      <PackagePath>css\bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\css\page0.css">
+      <PackagePath>css\page0.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\css\parallax.css">
+      <PackagePath>css\parallax.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\css\portfolio-item.css">
+      <PackagePath>css\portfolio-item.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\css\style.css">
+      <PackagePath>css\style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page2\animation.css">
+      <PackagePath>html\page2\animation.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page2\normal.css">
+      <PackagePath>html\page2\normal.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page2\style.css">
+      <PackagePath>html\page2\style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\style.css">
+      <PackagePath>html\style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\style3.css">
+      <PackagePath>html\style3.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\style5.css">
+      <PackagePath>html\style5.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\styles4.css">
+      <PackagePath>html\styles4.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\subtract\style1.css">
+      <PackagePath>html\subtract\style1.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\subtract\style2.css">
+      <PackagePath>html\subtract\style2.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\subtract\style3.css">
+      <PackagePath>html\subtract\style3.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\fifth.html">
+      <PackagePath>html\fifth.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\fourth.html">
+      <PackagePath>html\fourth.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\greaterlesser.html">
+      <PackagePath>html\greaterlesser.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\learncounting.html">
+      <PackagePath>html\learncounting.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page1.html">
+      <PackagePath>html\page1.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page2.html">
+      <PackagePath>html\page2.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page3.html">
+      <PackagePath>html\page3.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\addpractice.html">
+      <PackagePath>html\addpractice.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\practice.html">
+      <PackagePath>html\practice.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\quiz1.html">
+      <PackagePath>html\quiz1.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\quiz2.html">
+      <PackagePath>html\quiz2.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\quiz3.html">
+      <PackagePath>html\quiz3.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\quiz4.html">
+      <PackagePath>html\quiz4.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\second.html">
+      <PackagePath>html\second.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\sixth.html">
+      <PackagePath>html\sixth.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\subtract1.html">
+      <PackagePath>html\subtract1.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\subtract2.html">
+      <PackagePath>html\subtract2.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\subtract3.html">
+      <PackagePath>html\subtract3.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\third.html">
+      <PackagePath>html\third.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\page0.html">
+      <PackagePath>page0.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\audio\right.mp3">
+      <PackagePath>html\audio\right.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\audio\wrong.mp3">
+      <PackagePath>html\audio\wrong.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\icons\add.png">
+      <PackagePath>html\icons\add.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\icons\danda.png">
+      <PackagePath>html\icons\danda.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\icons\greater.png">
+      <PackagePath>html\icons\greater.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\icons\hdanda.png">
+      <PackagePath>html\icons\hdanda.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\icons\less.png">
+      <PackagePath>html\icons\less.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\icons\slant.png">
+      <PackagePath>html\icons\slant.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\icons\Stick.png">
+      <PackagePath>html\icons\Stick.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\icons\subtract.png">
+      <PackagePath>html\icons\subtract.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\0_1.png">
+      <PackagePath>html\images2\0_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\0_2.png">
+      <PackagePath>html\images2\0_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\1_1.png">
+      <PackagePath>html\images2\1_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\1_2.png">
+      <PackagePath>html\images2\1_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\2_1.png">
+      <PackagePath>html\images2\2_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\2_2.png">
+      <PackagePath>html\images2\2_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\3_1.png">
+      <PackagePath>html\images2\3_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\3_2.png">
+      <PackagePath>html\images2\3_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\4_1.png">
+      <PackagePath>html\images2\4_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\4_2.png">
+      <PackagePath>html\images2\4_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\4_3.png">
+      <PackagePath>html\images2\4_3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\5_1.png">
+      <PackagePath>html\images2\5_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\5_2.png">
+      <PackagePath>html\images2\5_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\6_1.png">
+      <PackagePath>html\images2\6_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\6_2.png">
+      <PackagePath>html\images2\6_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\7_1.png">
+      <PackagePath>html\images2\7_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\7_2.png">
+      <PackagePath>html\images2\7_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\8_1.png">
+      <PackagePath>html\images2\8_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\8_2.png">
+      <PackagePath>html\images2\8_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\9_1.png">
+      <PackagePath>html\images2\9_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images2\9_2.png">
+      <PackagePath>html\images2\9_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images3\0.png">
+      <PackagePath>html\images3\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images3\1.png">
+      <PackagePath>html\images3\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images3\2.png">
+      <PackagePath>html\images3\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images3\3.png">
+      <PackagePath>html\images3\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images3\4.png">
+      <PackagePath>html\images3\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images3\5.png">
+      <PackagePath>html\images3\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images3\6.png">
+      <PackagePath>html\images3\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images3\7.png">
+      <PackagePath>html\images3\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images3\8.png">
+      <PackagePath>html\images3\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images3\9.png">
+      <PackagePath>html\images3\9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\about.png">
+      <PackagePath>html\images\about.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\addscreen.png">
+      <PackagePath>html\images\addscreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\footer-logo.png">
+      <PackagePath>html\images\footer-logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\fotterback.png">
+      <PackagePath>html\images\fotterback.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\logo.png">
+      <PackagePath>html\images\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\mathfundo.png">
+      <PackagePath>html\images\mathfundo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\parlex.png">
+      <PackagePath>html\images\parlex.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\portfolio\exit.png">
+      <PackagePath>html\images\portfolio\exit.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\portfolio\quizlogo.png">
+      <PackagePath>html\images\portfolio\quizlogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\quiz.png">
+      <PackagePath>html\images\quiz.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\right.png">
+      <PackagePath>html\images\right.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\team.png">
+      <PackagePath>html\images\team.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\who-we-are.png">
+      <PackagePath>html\images\who-we-are.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\wrong.png">
+      <PackagePath>html\images\wrong.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\addscreen.png">
+      <PackagePath>images\addscreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\quizscreen.png">
+      <PackagePath>images\quizscreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\logo1.png">
+      <PackagePath>images\logo1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\screen.png">
+      <PackagePath>images\screen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\splash.png">
+      <PackagePath>images\splash.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\portfolio\1.jpg">
+      <PackagePath>html\images\portfolio\1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\portfolio\2.jpg">
+      <PackagePath>html\images\portfolio\2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\portfolio\3.jpg">
+      <PackagePath>html\images\portfolio\3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\portfolio\4.jpg">
+      <PackagePath>html\images\portfolio\4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\portfolio\5.jpg">
+      <PackagePath>html\images\portfolio\5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\portfolio\6.jpg">
+      <PackagePath>html\images\portfolio\6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\portfolio\7.jpg">
+      <PackagePath>html\images\portfolio\7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\portfolio\8.jpg">
+      <PackagePath>html\images\portfolio\8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\portfolio\9.jpg">
+      <PackagePath>html\images\portfolio\9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\logo.jpg">
+      <PackagePath>images\logo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\subscreen.jpg">
+      <PackagePath>images\subscreen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\tarunb.jpg">
+      <PackagePath>images\tarunb.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\right.gif">
+      <PackagePath>html\images\right.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\images\wrong.gif">
+      <PackagePath>html\images\wrong.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\images\back.gif">
+      <PackagePath>images\back.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\jquery.min.js">
+      <PackagePath>html\jquery.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page2\animation.js">
+      <PackagePath>html\page2\animation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page2\carousels.js">
+      <PackagePath>html\page2\carousels.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page2\classie.js">
+      <PackagePath>html\page2\classie.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page2\jquery-1.10.2.min.js">
+      <PackagePath>html\page2\jquery-1.10.2.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page2\jquery.js">
+      <PackagePath>html\page2\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page2\modernizr.js">
+      <PackagePath>html\page2\modernizr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page2\normal.js">
+      <PackagePath>html\page2\normal.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page2\portfolio-effects.js">
+      <PackagePath>html\page2\portfolio-effects.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page2\slider-modernizr.js">
+      <PackagePath>html\page2\slider-modernizr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\page2\toucheffects.js">
+      <PackagePath>html\page2\toucheffects.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\script.js">
+      <PackagePath>html\script.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\script3.js">
+      <PackagePath>html\script3.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\script4.js">
+      <PackagePath>html\script4.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\script5.js">
+      <PackagePath>html\script5.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\subtract\script1.js">
+      <PackagePath>html\subtract\script1.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\subtract\script2.js">
+      <PackagePath>html\subtract\script2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\html\subtract\script3.js">
+      <PackagePath>html\subtract\script3.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\js\bootstrap.js">
+      <PackagePath>js\bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\js\bootstrap.min.js">
+      <PackagePath>js\bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\js\jquery.js">
+      <PackagePath>js\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\js\jquery.min.js">
+      <PackagePath>js\jquery.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\js\jtag.js">
+      <PackagePath>js\jtag.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\js\parallax.js">
+      <PackagePath>js\parallax.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\js\parallax_main.js">
+      <PackagePath>js\parallax_main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\WinJS\js\base.js">
+      <PackagePath>WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\WinJS\js\ui.js">
+      <PackagePath>WinJS\js\ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tarun Kumar\Documents\Visual Studio 2015\Projects\App3\App3\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

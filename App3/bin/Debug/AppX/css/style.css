@@ -1,0 +1,48 @@
+#nav{
+	float: right;
+}
+    #nav{
+    float: right;
+}
+input {
+    position: relative;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 255);
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 20px;
+    background-color: rgba(34, 34, 34, 1);
+    border: 1px solid transparent;
+    border-radius: 9px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    width:100%
+}
+ul.tags ,ul.tags li{
+    list-style-type: none;
+    display : inline;
+    margin: 0;
+    padding: 0; 
+}
+#tag-cloud {
+     text-align: center;
+   }
+ #tag-cloud a {
+     margin: 0 0.2em;
+   }
+.tag-cloud-0 { font-size: 100%; }
+.tag-cloud-1 { font-size: 120%; }
+.tag-cloud-2 { font-size: 140%; }
+.tag-cloud-3 { font-size: 160%; }
+.tag-cloud-4 { font-size: 180%; }
+.tag-cloud-5 { font-size: 200%; }
+
+
