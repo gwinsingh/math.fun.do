@@ -1,0 +1,465 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Try</title>
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Main</title>
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+    <link href="../WinJS/css/ui-dark.css" rel="stylesheet" />
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/default.css" rel="stylesheet" />
+    <link href="../css/parallax.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="page2/style.css" rel="stylesheet" />
+    <link href="page2/animation.css" rel="stylesheet" />
+    <link href="page2/normal.css" rel="stylesheet" />
+    <script src="../WinJS/js/base.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/default.js"></script>
+    <script src="../js/jtag.js"></script>
+    <script src="../js/parallax.js"></script>
+    <script src="../js/parallax_main.js"></script>
+    <script src="page2/classie.js"></script>
+    <script src="page2/modernizr.js"></script>
+    <script src="page2/slider-modernizr.js"></script>
+    <script src="page2/toucheffects.js"></script>
+
+    <!-- App3 references -->
+    <link href="../css/default.css" rel="stylesheet" />
+    <script src="../js/default.js"></script>
+
+
+    <style type="text/css">
+        body {
+            background: #321;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #space {
+            //background: #766743;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+        }
+
+            #space img {
+                width: 225px;
+                height: 300px;
+                position: absolute;
+                left: 72px;
+            }
+
+        #one {
+            background: #ccff22;
+            height: 50px;
+            width: 87px;
+            border-radius: 9px;
+            font-family: Tahoma,Chiller,Verdana,sans-serif;
+            text-align: center;
+            font-size: 33px;
+        }
+
+            #one:hover {
+                opacity: 0.69;
+                color: #378374;
+                cursor: pointer;
+            }
+
+
+        #big {
+            position: absolute;
+            width: 309px;
+            right: 500px;
+            top: 50px;
+            border-radius: 7px;
+            background: #383;
+            padding: 9px;
+            font-family: Cabin,Tahoma;
+        }
+        body {
+    //text-align: center;
+}
+
+#button {
+    display: inline-block;
+    margin-top: 20%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow:    0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    -moz-box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    -moz-transition: -moz-box-shadow .1s ease-in-out;
+    -o-transition: -o-box-shadow .1s ease-in-out;
+    transition: box-shadow .1s ease-in-out;
+    font-size: 50px;
+    color: #fff;
+}
+
+#button2 {
+    display: inline-block;
+    margin-top: 20%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow:    0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    -moz-box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    -moz-transition: -moz-box-shadow .1s ease-in-out;
+    -o-transition: -o-box-shadow .1s ease-in-out;
+    transition: box-shadow .1s ease-in-out;
+    font-size: 50px;
+    color: #fff;
+}
+
+#button0 {
+    display: inline-block;
+    margin-top: 20%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow:    0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    -moz-box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    -moz-transition: -moz-box-shadow .1s ease-in-out;
+    -o-transition: -o-box-shadow .1s ease-in-out;
+    transition: box-shadow .1s ease-in-out;
+    font-size: 50px;
+    color: #fff;
+}
+
+#button span {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #ec528d;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsla(338, 90%, 80%, .8)), to(hsla(338, 90%, 70%, .2)));
+    background-image: -webkit-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -moz-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -o-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    font-family: 'Pacifico', Arial, sans-serif;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
+    -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out;
+    -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out;
+    transition: background-color .2s ease-in-out, transform .1s ease-in-out;
+}
+
+#button2 span {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #ec528d;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsla(338, 90%, 80%, .8)), to(hsla(338, 90%, 70%, .2)));
+    background-image: -webkit-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -moz-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -o-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    font-family: 'Pacifico', Arial, sans-serif;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
+    -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out;
+    -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out;
+    transition: background-color .2s ease-in-out, transform .1s ease-in-out;
+}
+
+#button0 span {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #ec528d;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsla(338, 90%, 80%, .8)), to(hsla(338, 90%, 70%, .2)));
+    background-image: -webkit-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -moz-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -o-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    font-family: 'Pacifico', Arial, sans-serif;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
+    -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out;
+    -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out;
+    transition: background-color .2s ease-in-out, transform .1s ease-in-out;
+}
+
+
+
+#button:hover span {
+    background-color: #ec6a9c;
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .9), 0 0 5px rgba(255, 255, 255, .8);
+}
+
+#button:active, #button:focus {
+    -webkit-box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+    box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+}
+
+#button:active span {
+    -webkit-transform: translate(0, 4px);
+    -moz-transform: translate(0, 4px);
+    -o-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+}
+
+#button2:hover span {
+    background-color: #ec6a9c;
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .9), 0 0 5px rgba(255, 255, 255, .8);
+}
+
+#button2:active, #button:focus {
+    -webkit-box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+    box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+}
+
+#button2:active span {
+    -webkit-transform: translate(0, 4px);
+    -moz-transform: translate(0, 4px);
+    -o-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+}
+
+#button0:hover span {
+    background-color: #ec6a9c;
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .9), 0 0 5px rgba(255, 255, 255, .8);
+}
+
+#button0:active, #button:focus {
+    -webkit-box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+    box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+}
+
+#button0:active span {
+    -webkit-transform: translate(0, 4px);
+    -moz-transform: translate(0, 4px);
+    -o-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+}
+
+.box{
+  bottom: 230px;
+  width:100px;
+  height:100px;
+  border-top:2px solid #fff;
+  border-radius:50%;
+  margin:10px auto 50px;
+  background-color:#EEEEEE;
+  background: linear-gradient(#EDEAE1,#CDC8B5);
+  text-align:center;
+  box-shadow:
+    0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+  cursor:pointer;
+  position:relative;
+}
+.box:active{
+  width:100px;
+  height:100px;
+	border-radius:50%;
+  border-top:none;
+  border:2px solid #BAB7AE;
+	background-color:#EEEEEE;
+	text-align:center;
+	position:relative;
+	color:#BAB7AE;
+	font-size:64px;
+	line-height:100px;
+	text-shadow:
+    0 1px 1px white,
+    0 1px 1px #BAB7AE;
+  
+  box-shadow:  0 0 0 0 #BBB7AE;
+}
+.box:before{
+	content:" ";
+	display:block;
+	position:absolute;
+	z-index:-90;
+	width:135px;
+	height:135px;
+	border-radius:50%;
+	border-top:2px solid #CCC8BF;
+  border-bottom: 1px solid #F4F3F1;
+  box-shadow: inset 0 -2px 0 2px #F7F6F2, inset 0 2px 1px 1px #CCC8BF;
+	left:-17.5px; 
+	top:-20px;
+	background:-moz-linear-gradient(#DAD6CB,#F1EDEA);
+	box-shadow: inset 1px 0 1px 0px #D9D9D9; 
+}
+.box span{
+  display:inline-block;
+  box-shadow: 
+    inset 0 1px 1px 1px #7E7E7E, 
+    0 1px 1px white;
+  height:15px; 
+  width:15px;
+  border-radius:50%;
+  background: linear-gradient(#AEADAA,#BAB7AE);
+  margin:42px auto;
+}
+
+
+#button3 {
+	}
+
+    </style>
+</head>
+<body>
+    
+    <div id="space">
+        <img src="images2/2_1.png" id="fir" style="display:none;">
+        <img src="images2/2_2.png" id="sec">
+        <img src="images2/4_3.png" id="third" style="display:none;">
+    </div>
+    <div id="big">
+
+    </div>
+     <!--<img src="images2/2_1.png" id="reload">
+      <img src="images2/2_2.png" id="next">
+    -->
+    <a href="#" id="button0">
+        <span><< Previous</span>
+    </a>
+    <a href="#" id="button2">
+        <span style="color:aqua;" id="addthem">Reload</span>
+    </a>
+    <a href="#" id="button">
+        <span>Next >></span>
+    </a>
+    
+    <br />
+
+    <a href="page1.html" id="button3" style="margin-top: 4px; border-top:40px">
+
+        <div class="box" title="Go Back"> <span></span> </div>
+    </a>
+       
+    <script type="text/javascript">
+
+	//$('#one').click(function(){
+	/*	$('img').fadeOut('slow',function(){
+			$('img').attr('src','images/2_2.jpg');
+			$(this).fadeIn('slow');
+		});
+*/
+
+var x=0;
+var texts = ["<h1> Zero:</h1><p>Start at the top, make a circle that touches the line that you are writing on, and then go back up to the top.</p><blockquote><p>Zero, zero,</p><p>Nothing to it!</p><p>Circle round,</p><p>I can do it!</p></blockquote>","<h1>One:</h1><p>Start at the top and pull straight down.  Don&#8217;t make a &#8220;flag&#8221; at the top!</p><blockquote><p>I can make a one for you.</p><p>Straight line down,</p><p>And now I'm through!</p><p>&nbsp;</p></blockquote>","<h1>Two:</h1><p>Start high, make a rainbow, make a diagonal &#8220;slide&#8221; down to the bottom, and straight line across.  Our number two should not look like a backwards S or a snake!  If the line on the bottom is not as straight as an arrow, something is wrong.</p><blockquote><p>Start up high,</p><p>Rainbow bright,</p><p>Down the slide,</p><p>Straight to the right.</p></blockquote>","<h1>Three:</h1><p>This is a tricky one for the children!  Start high and begin making a circle.  Stop when you get halfway around!  The end of your half-circle or &#8220;bump&#8221; is where you start your next one!  Trace the last part of that bump and draw another one underneath it.  Our number three shouldn&#8217;t look like a snake! BTW, if someone has a better idea, I&#8217;m open to changing these!</p><blockquote><p>Half a circle,</p><p>Back up then,</p><p>Half a circle once again.</p></blockquote>","<h1>Four:</h1><p>Start up high, and pull straight down.  Now make it a capital L.  Start high again and make a lowercase t right through that L!  Your line has to go right through that L so that we can see both &#8220;arms.&#8221;  Our number four wants both arms to show!</p><blockquote><p>Draw an L</p><p>And then for fun,</p><p>One line down,</p><p>And then you're done.</p></blockquote>","<h1>Five:</h1><p>We first make the line going down, then circle around, and THEN give it &#8220;a hat.&#8221;  So I say, &#8220;Down, around, give it a hat.&#8221;</p><blockquote><p>Down, around,</p><p>Give it a hat.</p><p>That's a five,</p><p>Just like THAT!</p></blockquote>","<h1>Six:</h1><p>Start at the top and make a letter C.  Then draw a little circle or loop at the bottom.</p><blockquote><p> Start on top,</p><p>And circle round,</p><p>Loop-de-loop</p><p>The bottom down!</p></blockquote>","<h1>Seven:</h1><p>Start up high, and make a straight line.  Then make a &#8220;slide&#8221; or a diagonal line. </p><blockquote><p>Make a straight line.</p><p>Towards your friend,</p><p>Down the slide,</p><p>And that's the end.</p></blockquote>","<h1>Eight:</h1><p>I tell the kids to make an S, but then to keep going.  They need to just draw a line from where the S ended to back where it started, like a &#8220;Connect the Dots&#8221; worksheet.</p><blockquote><p>Make an S,</p><p>But then don't stop!</p><p>Draw a line,</p><p>From the bottom to top.</p></blockquote>","<h1> Nine:</h1><p>Make a circle up high, and then draw a straight line down.</p><blockquote><p>Draw a circle</p><p>Up on top,</p><p>Straight line down,</p><p>And then you stop.</p></blockquote>"];
+function do_first(x){
+	document.getElementById('third').style.display = 'none';
+	if(x != 4){
+		document.getElementById('third').style.display = 'none';
+var fir = $('#fir');
+var sec = $('#sec');
+fir[0].src = 'images2/' + x + '_1.png';
+sec[0].src = 'images2/' + x + '_2.png';
+sec[0].style.display = 'none';
+//fir.delay('slow').show();
+$('#fir').fadeIn(2200);
+
+	$('#third')[0].style.display = 'none';
+	if(fir[0].style.display == 'none'){
+		sec[0].style.display = 'none';
+		fir.fadeIn('fast');
+	}else{
+	fir.fadeOut(1500);
+	sec.fadeIn(2200);
+}
+$('#third')[0].style.display = 'none';
+document.getElementById('big').innerHTML = texts[x];
+}else{
+
+		var fir = $('#fir');
+var sec = $('#sec');
+var third = $('#third');
+fir[0].src = 'images2/' + x + '_1.png';
+sec[0].src = 'images2/' + x + '_2.png';
+sec[0].style.display = 'none';
+//fir.delay('slow').show();
+$('#fir').fadeIn(2200);
+	if(fir[0].style.display == 'none'){
+		sec.fadeOut('fast');
+		fir.fadeIn('fast');
+	}else{
+	fir.fadeOut(1500);
+	sec.fadeIn(2900);
+	third.fadeIn(4700);
+}
+document.getElementById('big').innerHTML = texts[x];
+}
+}
+$(document).ready(function(){
+	//$('#third')[0].style.display = 'none';
+	do_first(x);
+});
+$('#button2').click(function(){
+	//$('#third')[0].style.display = 'none';
+	do_first(x);
+});
+
+$('#button').click(function(){
+	//$('#third')[0].style.display = 'none';
+	if(x == 9){
+		x = 0;
+	}else{
+		x++;
+	}
+	do_first(x);
+
+});
+
+$('#button0').click(function () {
+    //$('#third')[0].style.display = 'none';
+    if (x == 0) {
+        x = 9;
+    } else {
+        x--;
+    }
+    do_first(x);
+
+});
+	//});
+
+    </script>
+
+</body>
+</html>

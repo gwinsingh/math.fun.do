@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Try</title>
+<style type="text/css">
+	*{
+	margin: 0px;
+	padding: 0px;
+	}
+	.overlay {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgba(0,0,0,0.7);
+		width: 100%;
+		height: 100%;
+		z-index: 5000;
+	}
+
+	.overlay img.bgImg {
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	body {
+		background: #342243;
+	}
+	#space {
+		//background: #766743;
+		//width: 200px;
+		//height: 200px;
+		text-align: center;
+	}
+	#ffir{
+		top: 106px;
+		width: 50px;
+		height: 77px;
+		position: absolute;
+		left:102px;
+	}
+	#sfir{
+		top: 106px;
+		width: 50px;
+		height: 77px;
+		position: absolute;
+		left:47px;
+	}
+
+	#carrynum {
+		top: 30px;
+		width: 25px;
+		height: 55px;
+		position: absolute;
+		left:58px;
+		display: none;
+	}
+
+	#symbol{
+		position: absolute;
+		left: 13px;
+		top: 217px;
+		//height: 15px;
+		//width: 15px;
+	}
+
+	#fsec{
+		top:204px;
+				width: 50px;
+		height: 77px;
+		position: absolute;
+		left:102px;
+
+	}
+	#ssec{
+		top:204px;
+				width: 50px;
+		height: 77px;
+		position: absolute;
+		left:47px;
+
+	}
+
+	#fans {
+		top:307px;
+				width: 50px;
+		height: 77px;
+		position: absolute;
+		left:102px;
+
+	}
+
+
+	#sans {
+		top:307px;
+				width: 50px;
+		height: 77px;
+		position: absolute;
+		left:47px;
+
+	}
+
+	#hdanda {
+		position: absolute;
+		top: 287px;
+		left: 50px;
+		height: 12px;
+		width: 123px;
+		display: none;
+	}
+
+    body {
+    text-align: center;
+    }
+
+    #button {
+        position:absolute;
+        display: inline-block;
+        margin-top: 10%;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        -webkit-box-shadow:    0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+        -moz-box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+        box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+        -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+        -moz-transition: -moz-box-shadow .1s ease-in-out;
+        -o-transition: -o-box-shadow .1s ease-in-out;
+        transition: box-shadow .1s ease-in-out;
+        font-size: 50px;
+        color: #fff;
+        top:10px;
+        right: 110px;
+    }
+
+    #button2 {
+        display: inline-block;
+        margin-top: 20%;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        -webkit-box-shadow:    0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+        -moz-box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+        box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+        -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+        -moz-transition: -moz-box-shadow .1s ease-in-out;
+        -o-transition: -o-box-shadow .1s ease-in-out;
+        transition: box-shadow .1s ease-in-out;
+        font-size: 50px;
+        color: #fff;
+    }
+
+    #button span {
+        display: inline-block;
+        padding: 20px 30px;
+        background-color: #ec528d;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsla(338, 90%, 80%, .8)), to(hsla(338, 90%, 70%, .2)));
+        background-image: -webkit-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+        background-image: -moz-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+        background-image: -o-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+        -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+        box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+        font-family: 'Pacifico', Arial, sans-serif;
+        line-height: 1;
+        text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
+        -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
+        -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out;
+        -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out;
+        transition: background-color .2s ease-in-out, transform .1s ease-in-out;
+    }
+
+    #button2 span {
+        display: inline-block;
+        padding: 20px 30px;
+        background-color: #ec528d;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsla(338, 90%, 80%, .8)), to(hsla(338, 90%, 70%, .2)));
+        background-image: -webkit-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+        background-image: -moz-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+        background-image: -o-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+        -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+        box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+        font-family: 'Pacifico', Arial, sans-serif;
+        line-height: 1;
+        text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
+        -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
+        -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out;
+        -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out;
+        transition: background-color .2s ease-in-out, transform .1s ease-in-out;
+    }
+
+
+    #button:hover span {
+        background-color: #ec6a9c;
+        text-shadow: 0 -1px 1px rgba(175, 49, 95, .9), 0 0 5px rgba(255, 255, 255, .8);
+    }
+
+    #button:active, #button:focus {
+        -webkit-box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+        -moz-box-shadow: 0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+        box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+    }
+
+    #button:active span {
+        -webkit-transform: translate(0, 4px);
+        -moz-transform: translate(0, 4px);
+        -o-transform: translate(0, 4px);
+        transform: translate(0, 4px);
+    }
+
+    #button2:hover span {
+        background-color: #ec6a9c;
+        text-shadow: 0 -1px 1px rgba(175, 49, 95, .9), 0 0 5px rgba(255, 255, 255, .8);
+    }
+
+    #button2:active, #button:focus {
+        -webkit-box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+        -moz-box-shadow: 0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+        box-shadow:    0 8px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, .3);
+    }
+
+    #button2:active span {
+        -webkit-transform: translate(0, 4px);
+        -moz-transform: translate(0, 4px);
+        -o-transform: translate(0, 4px);
+        transform: translate(0, 4px);
+    }
+    
+    
+.box{
+    top: 110px;
+  width:100px;
+  height:100px;
+  border-top:2px solid #fff;
+  border-radius:50%;
+  margin:10px auto 50px;
+  background-color:#EEEEEE;
+  background: linear-gradient(#EDEAE1,#CDC8B5);
+  text-align:center;
+  box-shadow:
+    0 5px 2px 3px rgba(158, 158, 158, 0.4), 
+    0 3px 5px #B7B6B6, 
+    0 0 0 2px #BBB7AE, 
+    inset 0 -3px 1px 2px rgba(186, 178, 165, 0.5),
+    inset 0 3px 1px 2px rgba(246, 245, 241, 0.3);
+  cursor:pointer;
+  position:relative;
+  
+}
+.box:active{
+  width:100px;
+  height:100px;
+	border-radius:50%;
+  border-top:none;
+  border:2px solid #BAB7AE;
+	background-color:#EEEEEE;
+	text-align:center;
+	position:relative;
+	color:#BAB7AE;
+	font-size:64px;
+	line-height:100px;
+	text-shadow:
+    0 1px 1px white,
+    0 1px 1px #BAB7AE;
+  
+  box-shadow:  0 0 0 0 #BBB7AE;
+}
+.box:before{
+	content:" ";
+	display:block;
+	position:absolute;
+	z-index:-90;
+	width:135px;
+	height:135px;
+	border-radius:50%;
+	border-top:2px solid #CCC8BF;
+  border-bottom: 1px solid #F4F3F1;
+  box-shadow: inset 0 -2px 0 2px #F7F6F2, inset 0 2px 1px 1px #CCC8BF;
+	left:-17.5px; 
+	top:-20px;
+	background:-moz-linear-gradient(#DAD6CB,#F1EDEA);
+	box-shadow: inset 1px 0 1px 0px #D9D9D9; 
+}
+.box span{
+  display:inline-block;
+  box-shadow: 
+    inset 0 1px 1px 1px #7E7E7E, 
+    0 1px 1px white;
+  height:15px; 
+  width:15px;
+  border-radius:50%;
+  background: linear-gradient(#AEADAA,#BAB7AE);
+  margin:42px auto;
+}
+body {
+    background-color: #FF66FF;
+    background-size: 100% 100%;
+}
+
+
+</style>
+</head>
+<body>
+<!--<div id="one"><p draggable><em>two</em></p></div>-->
+<div id="space">
+	<img src="images3/2.png" id="ffir">
+	<img src="images3/2.png" id="sfir" class="dim">
+	<img src="icons/add.png" id="symbol">
+	<img src="images3/4.png" id="fsec" class="dim">
+	<img src="images3/4.png" id="ssec" class="dim">
+	<img src="icons/slant.png" id="hdanda">
+	
+</div>
+<div class="overlay"><a href="" id="button"><span>Next >></span></a></div>
+    <input type="text" id="answer" maxlength="4" style="width:300px;height:70px; font-size:36px;" required>
+    <a href="#" id="button2"><span id="submit">Submit</span></a>
+    <a href="addpractice.html" id="button3" style="margin-top: 4px; border-top:40px">
+        <div class="box" title="Go Back"> <span></span> </div>
+    </a>
+
+
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script type="text/javascript">
+	//$('#one').click(function(){
+	/*	$('img').fadeOut('slow',function(){
+			$('img').attr('src','images/2_2.jpg');
+			$(this).fadeIn('slow');
+		});
+*/
+var ffir = $('#ffir');
+var sfir = $('#sfir');
+var fsec = $('#fsec');
+var ssec = $('#ssec');
+
+	//});
+</script>
+<script type="text/javascript">
+
+
+var ffirstnum = Math.floor((Math.random()*9) + 1);
+var sfirstnum = Math.floor((Math.random()*9) + 1);
+var ssecondnum = Math.floor((Math.random()*9) + 1);
+var fsecondnum = Math.floor((Math.random()*9) + 1);
+while((10*ssecondnum+fsecondnum + ffirstnum+10*sfirstnum) >= 100){
+	var ffirstnum = Math.floor((Math.random()*9) + 1);
+	var sfirstnum = Math.floor((Math.random()*9) + 1);
+	var ssecondnum = Math.floor((Math.random()*9) + 1);
+	var fsecondnum = Math.floor((Math.random()*9) + 1);
+}
+	var sum = 10*ssecondnum +fsecondnum+ ffirstnum + 10*sfirstnum;
+	ffir[0].src = 'images3/'+ ffirstnum +'.png';
+	sfir[0].src = 'images3/'+sfirstnum + '.png';
+	ssec[0].src = 'images3/'+ ssecondnum +'.png';
+	fsec[0].src = 'images3/' + fsecondnum + '.png';
+
+	document.getElementById('button2').addEventListener('click', function (e) {
+	    e.preventDefault();
+	    var answer = document.getElementById('answer').value;
+	    if (answer == sum) {
+	        var audio1 = new Audio('audio/right.mp3');
+	        audio1.play();
+	        var myOverlay = document.querySelector('.overlay');
+	        var highRes = document.createElement('img');
+
+	        myOverlay.style.display = 'block';
+	        highRes.className = 'bgImg';
+	        highRes.src = 'images/right.gif';
+	        myOverlay.appendChild(highRes);
+
+	    } else {
+	        var audio2 = new Audio('audio/wrong.mp3');
+	        audio2.play();
+	        var myOverlay = document.querySelector('.overlay');
+	        var highRes = document.createElement('img');
+
+	        myOverlay.style.display = 'block';
+	        highRes.className = 'bgImg';
+	        highRes.src = 'images/wrong.gif';
+	        myOverlay.appendChild(highRes);
+
+	    }
+	}, false);
+
+
+//first_number(firstnum);
+//second_number(secondnum);
+//third_number(firstnum + secondnum);
+</script>
+</body>
+</html>
+
